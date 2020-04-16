@@ -6,7 +6,7 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
-    "test": "jest",
+    "test": "jest src",
     "lint": "eslint ."
   },
   "dependencies": {
@@ -29,7 +29,7 @@
     "preset": "react-native"
   },
   "detox": {
-    "test-runner": "jest",
+    "test-runner": "jest src",
     "configurations": {
       "ios.sim.debug": {
         "binaryPath": "ios/build/Build/Products/Debug-iphonesimulator/ReactNativeTDD.app",
